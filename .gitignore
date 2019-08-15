@@ -12,8 +12,11 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
-
+/bin
+/lib
+/public
+/tmp
+/vendor
 /node_modules
 /yarn-error.log
 

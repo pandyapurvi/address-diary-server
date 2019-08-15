@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_13_082322) do
+ActiveRecord::Schema.define(version: 2019_08_15_220518) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,9 +19,9 @@ ActiveRecord::Schema.define(version: 2019_08_13_082322) do
     t.text "streetNumber"
     t.text "street"
     t.text "suburb"
-    t.integer "postcode"
+    t.string "postcode"
     t.text "state"
-    t.integer "unitNumber"
+    t.string "unitNumber"
     t.text "streetType"
     t.text "propertyType"
     t.datetime "created_at", null: false
