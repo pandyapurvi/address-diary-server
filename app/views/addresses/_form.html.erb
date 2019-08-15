@@ -1,0 +1,21 @@
+<%= form_for @address do |f| %>
+
+    <%= f.label :streetNumber %>
+    <%= f.text_field :streetNumber%>
+    <%= f.label :street %>
+    <%= f.text_field :street %>
+    <%= f.label :suburb %>
+    <%= f.text_field :suburb %>
+    <%= f.label :state %>
+    <%= f.text_field :state %>
+    <%= f.label :postcode %>
+    <%= f.number_field :postcode %>
+    <%= f.label :unitNumber %>
+    <%= f.number_field :unitNumber %>
+    <%= f.label :streetType %>
+    <%= f.text_field :streetType %>
+    <%= f.label :propertyType %>
+    <%= f.text_field :propertyType %>
+    
+    <%= f.submit %>
+    <% end %>

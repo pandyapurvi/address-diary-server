@@ -1,0 +1,8 @@
+<h1>All Addresses</h1>
+
+<h2><% @addresses.each do |address| %></h2>
+
+<%= link_to address.street, address_path(address.id) %>
+<%= link_to address.unitNumber, address_path(address.id) %></br></br>
+
+<% end %>
