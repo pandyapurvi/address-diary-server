@@ -10,7 +10,7 @@ class AddressesController < ApplicationController
     end
   
     def show
-      @address = Addresss.find params[:id]
+      @address = Address.find params[:id]
       respond_to do |format|
         format.html
         format.json { render :json => @address }
