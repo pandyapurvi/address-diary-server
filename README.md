@@ -1,24 +1,12 @@
-# README
+# Address Diary
+Property address management Application built using React and Ruby on Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Initial setup for server
+```
+Rails server
 
-Things you may want to cover:
+```
 
-* Ruby version
+Server app will be up on `http://localhost:3000/`.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
